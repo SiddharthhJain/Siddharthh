@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #3b4893;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+        margin: 30px;
+        font-size: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a.hover {
+        color: blueviolet;
+    }
+
+    #container {
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        gap: 20px;
+
+    }
+
+    .para {
+
+        font-size: 20px;
+    }
+
+    .btn {
+
+        margin-top: 40px;
+        margin-bottom: 30px;
+        position: relative;
+        padding: 1em 2.5em;
+        display: inline-block;
+        border-radius: 6em;
+        transition: all .2s;
+        border: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: whitesmoke;
+        background-color: rgb(13, 3, 22);
+        cursor: pointer
+    }
+
+    .btn:active {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }
+
+    .btn::after {
+        background-color: #be5524;
+    }
+
+    .links {
+        margin-top: 0px;
+        height: 100px;
+        width: 100px;
+    }
+</style>
+
+<body>
+    <div class="about">ABOUT</div>
+    <hr>
+    <div id="container">
+        <div>Web Developer | B.Tech Student<br>
+
+            <p class="para">Hello there! I'm Siddharth Jain, a passionate web developer currently pursuing my B.Tech
+                degree. I'm in my
+                first year of studies and diving headfirst into the world of web development, which I find incredibly
+                captivating and fulfilling.</p>
+        </div>
+
+        <div> Background and Expertise:
+            <p class="para"> With a strong foundation in programming, I've developed expertise in a variety of languages
+                and
+                technologies. From my early days of learning C programming to exploring the realms of HTML, CSS,
+                JavaScript,
+                Node.js, and Python, I've been continuously expanding my knowledge and honing my skills in the web
+                development domain.</p>
+        </div>
+        <div>
+            Passions and Interests:
+            <p class="para">Web development has become more than just a career path for me; it's a true passion. I find
+                immense joy in
+                crafting intuitive and visually appealing websites and applications. The ability to bring ideas to life
+                through coding and design is a source of constant inspiration and motivation for me.</p>
+        </div>
+        <div>
+            Achievements and Accomplishments:
+            <p class="para">While I'm still at the beginning of my professional journey, I've already had the
+                opportunity to work on
+                several exciting projects. From developing responsive websites to building dynamic web applications,
+                each
+                experience has allowed me to strengthen my technical skills and gain valuable insights into the
+                industry.</p>
+        </div>
+        <div>
+            Values and Approach:
+            <p class="para">I firmly believe in the power of continuous learning and growth. I strive to stay updated
+                with the latest
+                trends and advancements in web development, always seeking to improve my techniques and expand my
+                horizons.
+                Moreover, I value collaboration, teamwork, and attention to detail, as they contribute to delivering
+                exceptional results.</p>
+        </div>
+        <div>
+            Future Goals and Aspirations:
+            <p class="para"> Looking ahead, my goal is to further enhance my expertise in web development and explore
+                additional
+                technologies and frameworks. I aim to become a well-rounded developer with a strong foundation in both
+                front-end and back-end development. Ultimately, I aspire to contribute to innovative projects that
+                positively impact people's lives.
+        </div>
+        <div>
+            Call to Action:
+            <p class="para"> I'm always open to new opportunities and collaborations. If you're interested in working
+                together,
+                discussing web development trends, or simply connecting with fellow enthusiasts, feel free to reach out
+                to
+                me. You can find me on LinkedIn<a href="https://www.linkedin.com/in/siddharth-jain-29983b227"><img
+                        src="./linkedin.svg" style="height: 30px; width:30px;" alt="linkedin"></a> or email me at <a
+                    href="https://mail.google.com/mail/u/0/?tab=rm#inbox"><img src="./envelope-at-fill.svg" style="height: 30px; width:30px
+                    alt =" mail"></a>.</p>
+        </div>
+        <div>
+
+            <a href="./portfolio.html" <button class="btn"> Go Back </button></a>
+</body>
+
+</html>
