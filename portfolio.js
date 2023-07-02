@@ -1,3 +1,2 @@
-alert("hello")
+alert("Hello I Welcome all to my Portfolio Website ");
 
-document.getElementsByTagName(ul).style.backgroundcolor="red";
