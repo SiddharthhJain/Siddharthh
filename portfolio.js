@@ -1,2 +1,6 @@
-alert("Hello I Welcome all to my Portfolio Website ");
-
+function myfunction(){
+  let dateandtime= Date();
+  document.getelementbyClass("dateandtime").innerHTML= dateandtime;
+}
+setInterval (myfunction, 1000);
+    
